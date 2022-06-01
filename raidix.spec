@@ -12,8 +12,8 @@ Simple software for company Raidix
 
 
 %prep
-%{__cp} /root/sobes666/Makefile %{_builddir}
-%{__cp} /root/sobes666/raidix.c %{_builddir}
+%{__cp} $OLDPWD/Makefile %{_builddir}
+%{__cp} $OLDPWD/raidix.c %{_builddir}
 
 
 %build
