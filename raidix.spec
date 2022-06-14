@@ -21,9 +21,7 @@ make build
 
 
 %install
-mkdir -p %{buildroot}/usr/bin/
-install -m 755 raidix %{buildroot}/usr/bin/raidix
-#make install
+make install
 
 
 %files
